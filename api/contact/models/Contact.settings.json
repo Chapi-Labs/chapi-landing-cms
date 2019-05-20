@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "contact",
+  "info": {
+    "name": "contact",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "required": true,
+      "type": "email"
+    },
+    "content": {
+      "required": true,
+      "type": "text"
+    }
+  }
+}
