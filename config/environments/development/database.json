@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "cluster0-2pocv.mongodb.net",
+        "port": 27017,
+        "database": "chapi-landing-cms",
+        "username": "chapilabs",
+        "password": "bpHYQwkOxE0q66SH",
+        "srv": true
+      },
+      "options": {
+        "authenticationDatabase": "admin",
+        "ssl": true
+      }
+    }
+  }
+}
